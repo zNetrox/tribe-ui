@@ -33,6 +33,22 @@
           "options": {
             "tsConfig": "projects/tribe/ui/tsconfig.spec.json"
           }
+        },
+        "storybook": {
+          "builder": "@storybook/angular-vite:start-storybook",
+          "options": {
+            "configDir": "projects/tribe/ui/.storybook",
+            "browserTarget": "@tribe/ui:build",
+            "port": 6006
+          }
+        },
+        "build-storybook": {
+          "builder": "@storybook/angular-vite:build-storybook",
+          "options": {
+            "configDir": "projects/tribe/ui/.storybook",
+            "browserTarget": "@tribe/ui:build",
+            "outputDir": "storybook-static"
+          }
         }
       }
     }
