@@ -1,0 +1,11 @@
+<ng-template #content>
+    <ng-content />
+</ng-template>
+
+<button
+    [type]="type()"
+    [class]="'shape-' + shape() + ' btn-' + variant()"
+>
+    <!-- Contenu du bouton classique -->
+    <ng-container [ngTemplateOutlet]="content" />
+</button>

@@ -1,0 +1,77 @@
+:host {
+    display: inline-block;
+    /* peut modifier la font size depuis <app-button> */
+    font-size: var(--font-size-base);
+}
+
+button {
+    /* variable interne au bouton */
+    --btn-py: 0.8em;
+    --btn-size: calc(var(--btn-py) * 2 + 1em); 
+    font-family: var(--font-body);
+    font-size: inherit;
+    line-height: 1;
+}
+
+/* ------------- */   
+/* --- shape --- */
+/* ------------- */
+
+.shape-default {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    padding: var(--btn-py) 1.5em;
+    border-radius: 50em;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    transition: 0.25s var(--ease-smooth);
+}
+
+/* ---------------------- */   
+/* --- bouton basique --- */
+/* ---------------------- */
+
+/* primary */
+.btn-primary.shape-default {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.btn-primary.shape-default:hover {
+    background-color: var(--dark-orange);
+}
+
+/* secondary */
+.btn-secondary.shape-default {
+    background-color: var(--brown);
+    color: var(--white);
+}
+
+.btn-secondary.shape-default:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+/* outline */
+.btn-outline.shape-default {
+    background-color: transparent;
+    border-color: var(--brown);
+    color: var(--brown);
+}
+
+.btn-outline.shape-default:hover {
+    background-color: var(--brown);
+    color: var(--white);
+}
+
+/* white */
+.btn-white.shape-default {
+    background-color: var(--white);
+    color: var(--brown);
+}
+
+.btn-white.shape-default:hover {
+    background-color: var(--cream);
+}
