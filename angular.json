@@ -17,7 +17,19 @@
           "builder": "@angular/build:library",
           "options": {
             "tsConfig": "projects/tribe/ui/tsconfig.lib.json",
-            "outputPath": "dist/tribe/ui"
+            "outputPath": "dist/tribe/ui",
+            "assets": [
+              {
+                "glob": "*.css",
+                "input": "projects/tribe/ui/src/lib/styles",
+                "output": "."
+              },
+              {
+                "glob": "**/*",
+                "input": "projects/tribe/ui/src/lib/styles/fonts",
+                "output": "./fonts"
+              }
+            ]
           },
           "configurations": {
             "production": {},

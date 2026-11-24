@@ -1,11 +1,2 @@
-:root {
-    --orange: #e86f2c;
-    --dark-orange: #c9581a;
-    --brown: #3d2817;
-    --white: #ffffff;
-    --cream: #f7f1e8;
-
-    --font-body: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    --font-size-base: 16px;
-    --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
-}
+@import './fonts.css';
+@import './variables.css';

@@ -1,0 +1,119 @@
+/* ==========================================================================
+  QUROVA DEMO
+   ========================================================================== */
+
+@font-face {
+  font-family: 'Qurova DEMO';
+  src: url('./fonts/qurova-demo/QurovaDEMO-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Qurova DEMO';
+  src: url('./fonts/qurova-demo/QurovaDEMO-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Qurova DEMO';
+  src: url('./fonts/qurova-demo/QurovaDEMO-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Qurova DEMO';
+  src: url('./fonts/qurova-demo/QurovaDEMO-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Qurova DEMO';
+  src: url('./fonts/qurova-demo/QurovaDEMO-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ==========================================================================
+  PP TELEGRAF
+   ========================================================================== */
+
+@font-face {
+  font-family: 'PP Telegraf';
+  src: url('./fonts/telegraf-font-family/PPTelegraf-Ultralight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Telegraf';
+  src: url('./fonts/telegraf-font-family/PPTelegraf-UltralightOblique.otf') format('opentype');
+  font-weight: 200;
+  font-style: oblique;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Telegraf';
+  src: url('./fonts/telegraf-font-family/PPTelegraf-UltralightSlanted.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Telegraf';
+  src: url('./fonts/telegraf-font-family/PPTelegraf-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Telegraf';
+  src: url('./fonts/telegraf-font-family/PPTelegraf-RegularOblique.otf') format('opentype');
+  font-weight: 400;
+  font-style: oblique;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Telegraf';
+  src: url('./fonts/telegraf-font-family/PPTelegraf-RegularSlanted.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Telegraf';
+  src: url('./fonts/telegraf-font-family/PPTelegraf-Ultrabold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Telegraf';
+  src: url('./fonts/telegraf-font-family/PPTelegraf-UltraboldOblique.otf') format('opentype');
+  font-weight: 800;
+  font-style: oblique;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Telegraf';
+  src: url('./fonts/telegraf-font-family/PPTelegraf-UltraboldSlanted.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
