@@ -12,6 +12,7 @@ const meta: Meta<ArrowIcon> = {
     },
     args: {
         size: 24,
+        direction: 'right',
     },
     };
 

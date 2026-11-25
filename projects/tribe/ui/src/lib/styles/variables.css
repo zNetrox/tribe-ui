@@ -14,7 +14,6 @@
     --font-title: 'Qurova DEMO', sans-serif;
     --font-body: 'PP Telegraf', sans-serif;
 
-    /* TODO a voir si je les laisse */ 
     /* font-size */
     --font-size-xs: 12px;
     --font-size-sm: 14px;
@@ -23,9 +22,6 @@
     --font-size-xl: 20px; 
     --font-size-2xl: 24px;
     --font-size-3xl: 30px;
-
-    --font-size-title: 100px;
-    --page-padding: 3vw; /* TODO a modifier par un clamp */
 
     /* cubic-bezier */
     --ease-smooth: cubic-bezier(0.16, 1, 0.3, 1);
